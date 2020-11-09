@@ -2,6 +2,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class CalcTests {
 
@@ -26,6 +27,11 @@ public class CalcTests {
         int expected = 1;
 
         assertEquals(expected,actual);
+    }
+
+    @Test
+    void failTest(){
+        fail();
     }
 
 }
