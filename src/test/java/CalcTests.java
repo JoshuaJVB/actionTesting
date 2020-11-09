@@ -20,4 +20,12 @@ public class CalcTests {
         assertEquals(expected,actual);
     }
 
+    @Test
+    void testSub(){
+        int actual = calc.sub(3,2);
+        int expected = 1;
+
+        assertEquals(expected,actual);
+    }
+
 }
