@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: CalcTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in CalcTests
+failTest  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at CalcTests.failTest(CalcTests.java:34)
+
